@@ -7,8 +7,8 @@ public class Funcionario extends Pessoa {
 	private String cpf;
 	private String matricula;
 	private Double salario;
-	private Setor setor; // (ASSOCIACAO TER-1 TODOS OS FUNCIONARIOS TEM 1 SETOR)
-	private List<Funcao> funcoes; // (ASSOCIACAO TER-N TODOS OS FUNCIONARIOS PODEM TER 1-N FUNCOES)
+	private Setor setor; // (ASSOCIACAO TER-1 -> TODOS OS FUNCIONARIOS TEM 1 SETOR)
+	private List<Funcao> funcoes; // (ASSOCIACAO TER-N -> TODOS OS FUNCIONARIOS PODEM TER 1-N FUNCOES)
 
 	public String getCpf() {
 		return cpf;
